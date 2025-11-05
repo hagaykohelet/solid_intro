@@ -12,7 +12,7 @@ class CreditCardPayment(Payment):
 
 
 class PayPalPayment(Payment):
-    def pay(self,amount):
+     def pay(self,amount):
         print("this is class PayPal Payment")
 
 
